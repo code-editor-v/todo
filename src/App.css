@@ -1,0 +1,19 @@
+/* Add this to your global styles (e.g., styles.css or tailwind.css) */
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 7px;  /* Width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: midnightblue;  /* Thumb color */
+    border-radius: 13px;  /* Rounded corners */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: darkblue;  /* Thumb color when hovered */
+  }
+  
